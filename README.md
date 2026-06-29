@@ -207,30 +207,38 @@ Determine whether customers with higher transaction volumes maintain significant
 ## Repository Structure
 
 ```text
-goldman-sachs-financial-risk-analysis-python/
+financial-risk-analysis/
 │
 ├── data/
 │   ├── goldman_sachs.csv
 │   └── goldman_sachs_cleaned.csv
 │
-├── notebooks/
-│   ├── Task1_DataCleaning.ipynb
-│   ├── Task2_DescriptiveAnalysis.ipynb
-│   ├── Task3_CustomerProfiles.ipynb
-│   ├── Task4_RiskAnalysis.ipynb
-│   ├── Task5_EDA.ipynb
-│   ├── Task6_HypothesisTesting.ipynb
-│   └── Analytical_Criterias_followed.ipynb
+├── docs/
+│   ├── Analytical_Criterias_followed.ipynb
+│   ├── Financial Risk Analysis Summary Report.pdf
+│   ├── Problem Statement.pdf
+│   └── Video Link.txt
 │
 ├── images/
-│   └── (visualizations)
+│   ├── Transaction_amount_distribution.png
+│   ├── correlation heatmap.png
+│   ├── credit_rating_vs_risk_score.png
+│   ├── customer_profile_building.png
+│   ├── hypothesis_testing.png
+│   ├── monthly_credit_vs_debit_transactions.png
+│   └── risk_score_distribution_by_account_type.png
 │
-├── reports/
-│   ├── Financial_Risk_Analysis_Summary_Report.pdf
-│   ├── Problem_Statement.pdf
-│   └── Project_Objective.pdf
+├── solution/
+│   ├── Task1_Cleaning.ipynb
+│   ├── Task2_Descriptive_Transactional_Analysis.ipynb
+│   ├── Task3_Customer_Profile_Building.ipynb
+│   ├── Task4_Financial_Risk_Identification.ipynb
+│   ├── Task5_Exploratory_Data_Analysis.ipynb
+│   └── Task6_Hypothesis_Testing.ipynb
 │
-└── README.md
+├── .gitignore
+├── README.md
+└── requirements.txt
 ```
 
 ---
